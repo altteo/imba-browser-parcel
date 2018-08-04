@@ -12,9 +12,9 @@ if module:hot
 console.log 'running'
 
 tag Simple
-    def setup
-        @x = Math.floor(Math.random * 300)
-        @y = Math.floor(Math.random * 300)
+    prop x default: Math.floor( Math.random * 300 )
+    prop y default: Math.floor( Math.random * 300 )
+
     def render
         <self.hello css:top="{@y}px" css:left="{@x}px"> 'Hello world'
 
