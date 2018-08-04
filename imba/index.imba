@@ -2,7 +2,7 @@
 
 # ---------------------
 # hack against tag duplication
-# try to remove it see the result
+# try to remove it and do several updates
 if module:hot
     if document:body
         document:body:innerHTML = ''
