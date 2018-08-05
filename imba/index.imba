@@ -16,6 +16,6 @@ tag Simple
     prop y default: Math.floor( Math.random * 300 )
 
     def render
-        <self.hello css:top="{@y}px" css:left="{@x}px"> 'Hello world'
+        <self css:top="{@y}px" css:left="{@x}px"> 'Hello world'
 
 Imba.mount <Simple>
